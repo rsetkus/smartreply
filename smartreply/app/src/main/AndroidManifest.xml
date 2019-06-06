@@ -15,18 +15,18 @@
  limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="lt.setkus.smartreply" >
+  package="smartreply.app.src.main.java.lt.setkus.smartreplay" >
 
   <uses-sdk
       android:minSdkVersion="15"
       android:targetSdkVersion="24" />
 
-  <application android:label="TfLite SmartReply Demo">
+  <application android:label="SmartReply Demo">
     <activity
-        android:name="lt.setkus.smartreply.MainActivity"
+        android:name=".MainActivity"
         android:configChanges="orientation|keyboardHidden|screenSize"
         android:windowSoftInputMode="stateUnchanged|adjustPan"
-        android:label="TfLite SmartReply Demo"
+        android:label="SmartReply Demo"
         android:screenOrientation="portrait" >
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
