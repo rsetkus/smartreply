@@ -1,0 +1,6 @@
+.aswb/*
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-smartreplay-demo
+bazel-testlogs
